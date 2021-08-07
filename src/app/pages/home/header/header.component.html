@@ -1,0 +1,9 @@
+<div class="logo">
+    Amazing App
+</div>
+
+<user-avatar
+    *ngIf="(currentUser$ | async) as currentUser"
+    class="user-avatar"
+    [user]="currentUser">
+</user-avatar>

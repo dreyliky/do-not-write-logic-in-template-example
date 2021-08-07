@@ -1,0 +1,38 @@
+:host {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    border: solid 1px #f0f0f0;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, .08);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px;
+
+    .user-avatar {
+        margin-bottom: 12px;
+    }
+    
+    .name {
+        width: 100%;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 24px;
+        color: rgba(0, 0, 0, .8);
+    }
+    
+    .age {
+        font-size: 14px;
+        color: #2fad57;
+    }
+}

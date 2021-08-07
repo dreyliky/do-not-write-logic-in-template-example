@@ -1,0 +1,23 @@
+$margin-from-sides: 10px;
+
+:host {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0d53bd;
+    color: #fff;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, .3);
+}
+
+.logo {
+    margin-left: $margin-from-sides;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.user-avatar {
+    margin-left: auto;
+    margin-right: $margin-from-sides;
+}

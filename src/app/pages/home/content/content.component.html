@@ -1,0 +1,17 @@
+<ng-container *ngIf="users; else loaderTemplate">
+    <h1>Sorted users (by age)</h1>
+
+    <app-users-cards
+        [users]="users">
+    </app-users-cards>
+
+    <h1>Total age of users</h1>
+
+    <app-users-total-age
+        [users]="users">
+    </app-users-total-age>
+</ng-container>
+
+<ng-template #loaderTemplate>
+    Loading...
+</ng-template>
